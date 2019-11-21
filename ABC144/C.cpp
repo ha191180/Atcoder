@@ -9,7 +9,7 @@ int main(){
 	}else{
 		start = (n + 1) / 2;
 	}
-	for(int i = start ; i < n ; i++){
+	for(int i = start ; i * i < n ; i++){
 		if(n % i == 0){
 			x = i;
 			y = n / i;
